@@ -35,6 +35,8 @@ a:hover {
 	padding: 50px;
 }
 
+/* // flex container */
+
 .flex-nav ul {
 	border: 1px solid black;
 	list-style: none;
@@ -44,13 +46,40 @@ a:hover {
 }
 
 .flex-nav li {
-  flex: 1;
+  flex: 3;
+}
+
+.flex-nav .social {
+	flex: 1;
 }
 
 @media all and (max-width: 1000px) {
-
+	.flex-nav ul {
+		flex-wrap: wrap;
+	}
+	.flex-nav li {
+		flex: 1 1 50%;
+	}
 }
 
 @media all and (max-width: 500px) {
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
